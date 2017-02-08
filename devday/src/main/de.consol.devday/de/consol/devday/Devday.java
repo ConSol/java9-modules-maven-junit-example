@@ -1,6 +1,7 @@
 package de.consol.devday;
 
 import de.consol.devday.service.EventService;
+import de.consol.devday.markdown.MarkdownService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.ServiceLoader;
 public class Devday {
 
     private static List<EventService> eventServices = new ArrayList<>();
+    private static MarkdownService markdownService = new MarkdownService();
 
     public static void main(String[] args) {
         System.out.println("");
@@ -23,6 +25,6 @@ public class Devday {
                 .map(EventService::getEvents)
                 .forEach(events::addAll);
 
-        events.forEach(System.out::println);
+        System.out.println(markdownService.formatList(events));
     }
 }

@@ -15,6 +15,7 @@
 
     <build>
         <sourceDirectory>src/main/de.consol.devday</sourceDirectory>
+        <testSourceDirectory>src/test/de.consol.devday</testSourceDirectory>
         <plugins>
             <plugin>
                 <!-- Build an executable JAR -->
@@ -39,6 +40,12 @@
             <groupId>de.consol</groupId>
             <artifactId>devday-service</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     
