@@ -8,7 +8,7 @@ public class TalkServiceTest {
     @Test
     public void testGetEvents() {
         TalkService ts = new TalkService();
-        Assert.assertEquals(8,ts.getEvents().size());
+        Assert.assertEquals(6,ts.getEvents().size());
     }
 
     @Test

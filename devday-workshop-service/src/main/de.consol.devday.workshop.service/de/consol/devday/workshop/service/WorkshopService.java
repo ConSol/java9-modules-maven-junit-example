@@ -11,7 +11,7 @@ public class WorkshopService implements EventService {
     public List<String> getEvents() {
         return Stream.of(
                 "Kubernetes",
-                "Fedex Day"
+                "Gamification"
             )
             .map(WorkshopService::prefix)
             .collect(Collectors.toList());

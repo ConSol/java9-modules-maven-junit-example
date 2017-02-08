@@ -12,11 +12,9 @@ public class TalkService implements EventService {
         return Stream.of(
                 "Deep Learning",
                 "Java 9 Modules in a Nutshell",
-                "Pac Man, Donkey Kong and Co... Developing HTML 5 Games with Phaser",
                 "Containerized End-2-End-Testing and Monitoring",
                 "JavaScript Lightning Talks",
                 "Citrus & Microservices (Kubernetes)",
-                "Migrating Large Amounts of Data",
                 "Apache Cassandra vs. MongoDB"
             )
             .map(TalkService::prefix)
