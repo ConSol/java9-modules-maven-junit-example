@@ -23,7 +23,7 @@ public class TalkService implements EventService {
             .collect(Collectors.toList());
     }
 
-    protected static String prefix(String input) {
+    static String prefix(String input) {
         return "Talk: " + input;
     }
 }
