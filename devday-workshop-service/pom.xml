@@ -15,7 +15,7 @@
 
     <build>
         <sourceDirectory>src/main/de.consol.devday.workshop.service</sourceDirectory>
-        <testSourceDirectory>src/test/de.consol.devday.workshop.service</testSourceDirectory>
+        <!--<testSourceDirectory>src/test/de.consol.devday.workshop.service</testSourceDirectory>-->
     </build>
 
     <dependencies>
