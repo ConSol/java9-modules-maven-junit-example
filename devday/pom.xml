@@ -11,17 +11,12 @@
     </parent>
 
     <artifactId>devday</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
     <build>
-        <sourceDirectory>src/main/de.consol.devday</sourceDirectory>
-        <!--<testSourceDirectory>src/test/de.consol.devday</testSourceDirectory>-->
         <plugins>
             <plugin>
                 <!-- Build an executable JAR -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.0.2</version>
                 <configuration>
                     <archive>
                         <manifest>
