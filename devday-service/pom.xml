@@ -11,11 +11,15 @@
     </parent>
 
     <artifactId>devday-service</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
-    <build>
-        <sourceDirectory>src/main/de.consol.devday.service</sourceDirectory>
-    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>2.1.0</version>
+            <scope>test</scope>
+        </dependency>
 
-    
+    </dependencies>
+
 </project>
