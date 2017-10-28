@@ -8,10 +8,6 @@ Unnamed Module simply by *not* modularizing the test sources.
 
 Read more in our blog post: [Getting Started with Java 9 Modules]
 
-## Hints
-
-The notes above about failing compiles has been fixed with the maven-compiler-plugin version 3.7.0 which is configured in this build.
-
 ## Prerequisites:
 * Maven >= 3.0.0
 * JDK 9
