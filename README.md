@@ -2,13 +2,9 @@
 This simple project shows how Maven can be used to build Java 9 modules. 
 
 It uses the `ServiceLoader` to load loosely coupled services from other modules.
-~~It also demonstrates how methods in non-exported packages can be unit-tested from the 
-Unnamed Module simply by not modularizing the test sources.~~ 
-Note: ~~~currently, tests do not compile with maven-compiler-plugin 3.6.1 due to a breaking change in jdk-ea167.~~~
+It also demonstrates how methods in non-exported packages can be unit-tested from the 
+Unnamed Module simply by *not* modularizing the test sources.
 
-~~~ Hence `testSourceDirectory` entries are commented, hoping for an imminent fix.~~~
-
-You can keep going with the default Maven directory layout. There is no need to change something at the moment.
 
 Read more in our blog post: [Getting Started with Java 9 Modules]
 
@@ -18,7 +14,7 @@ The notes above about failing compiles has been fixed with the maven-compiler-pl
 
 ## Prerequisites:
 * Maven >= 3.0.0
-* JDK 9 Early Access 181
+* JDK 9
 
 ## Running the example
 * `mvn clean package`
