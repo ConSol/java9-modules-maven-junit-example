@@ -16,4 +16,8 @@ Read more in our blog post: [Getting Started with Java 9 Modules]
 * `mvn clean package`
 * `.\run.cmd` or `./run.sh`
 
+## Known issues
+* At the moment, the project does not compile in Eclipse due to a known issue in JDT. See this [thread on the m2e-users mailing list for more details and a workaround].
+
 [Getting Started with Java 9 Modules]: https://labs.consol.de/development/2017/02/13/getting-started-with-java9-modules.html
+[thread on the m2e-users mailing list for more details and a workaround]: https://dev.eclipse.org/mhonarc/lists/m2e-users/msg05698.html
